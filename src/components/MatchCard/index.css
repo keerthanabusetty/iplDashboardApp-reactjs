@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.ipl-card-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f172a;
+  margin: 15px;
+  border-radius: 12px;
+  padding: 30px;
+  width: 300px;
+}
+
+@media screen and (max-width: 767px) {
+  .ipl-card-details {
+    width: 41%;
+    padding: 5px;
+  }
+}
+
+.name {
+  color: #ffffff;
+  font-family: Bree serif;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 26px;
+  }
+}
+
+.result-team {
+  color: #ffffff;
+  font-family: Bree serif;
+  font-size: 13px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .result-team {
+    font-size: 16px;
+  }
+}
+
+.won {
+  color: #18ed66;
+  font-family: Bree serif;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .won {
+    font-size: 25px;
+  }
+}
+
+.lost {
+  color: #e31a1a;
+  font-family: Bree serif;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .lost {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,81 @@
+/* Write your CSS here */
+.red {
+  background-color: #a4261d;
+}
+
+.rebeccapurple {
+  background-color: #5755a7;
+}
+
+.maroon {
+  background-color: #d91c1f;
+}
+
+.yellow {
+  background-color: #f7db00;
+}
+
+.magenta {
+  background-color: #da237b;
+}
+
+.blue {
+  background-color: #13418b;
+}
+
+.burlywood {
+  background-color: #f26d22;
+}
+
+.blueviolet {
+  background-color: #4f5db0;
+}
+
+.match-bg-container {
+  min-height: 100vh;
+  width: 100vw;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-bg-container {
+    padding: 15px;
+  }
+}
+
+.banner {
+  height: 380px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .banner {
+    height: 200px;
+  }
+}
+.latest {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Bree serif;
+}
+
+.recent-matches-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.team-img {
+  height: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-img {
+    height: 130px;
+  }
+}
